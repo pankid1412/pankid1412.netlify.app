@@ -5,10 +5,8 @@ website:
   title: "pankid的个人主页"
   bread-crumbs: true
   back-to-top-navigation: true
-  page-footer: "© pankid"
+  page-footer: "“我们在日常生活中度过的每一天，实际上也许是连续发生的奇迹也说不定呢。”"
   reader-mode: true
-  repo-url: https://github.com/pankid1412/demo
-  repo-actions: [edit, issue]
 
   navbar:
     background: primary
@@ -25,7 +23,6 @@ website:
       - text: "个人简历"
         file: about.qmd
     right:
-      - about.qmd
       - icon: github
         href: https://github.com
       - icon: twitter
@@ -33,11 +30,6 @@ website:
       - icon: google
         href: http://google.com
 
-        menu:
-        - text: Source Code
-          url: https://code.com
-        - text: Report a Bug
-          url: https://bugs.com
 sidebar:
   - title: "博客"
     style: docked
