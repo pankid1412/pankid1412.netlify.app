@@ -4,27 +4,41 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "demo",
+    "title": "pankid",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About pankid",
     "section": "",
-    "text": "About this blog"
+    "text": "“社会人”一枚 ~ 道阻且长，行则将至。\n\n\n社会学、经济学\n\n\n\nPython、Stata、R、Markdown、Quarto\n\nAbout this blog"
+  },
+  {
+    "objectID": "about.html#关注领域",
+    "href": "about.html#关注领域",
+    "title": "About pankid",
+    "section": "",
+    "text": "社会学、经济学"
+  },
+  {
+    "objectID": "about.html#兴趣技能",
+    "href": "about.html#兴趣技能",
+    "title": "About pankid",
+    "section": "",
+    "text": "Python、Stata、R、Markdown、Quarto\n\nAbout this blog"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with executable code.\n\n\n\n Back to top"
   }
 ]
