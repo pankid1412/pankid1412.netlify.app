@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "references/reference.html",
+    "href": "references/reference.html",
+    "title": "References",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
+    "text": "No matching items\n Back to top"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "pankid",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "This is a post with executable code.\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About pankid",
     "section": "",
-    "text": "“社会人”一枚 ~ 道阻且长，行则将至。\n\n\n社会学、经济学\n\n\n\nPython、Stata、R、Markdown、Quarto\n\nAbout this blog"
+    "text": "“社会人”一枚\n&gt; “我们在日常生活中度过的每一天，实际上也许是连续发生的奇迹也说不定呢。”[^1]\n[^1]:《日常》\n\n\n社会学、经济学\n\n\n\nPython、Stata、R、Markdown、Quarto"
   },
   {
     "objectID": "about.html#关注领域",
@@ -32,13 +32,20 @@
     "href": "about.html#兴趣技能",
     "title": "About pankid",
     "section": "",
-    "text": "Python、Stata、R、Markdown、Quarto\n\nAbout this blog"
+    "text": "Python、Stata、R、Markdown、Quarto"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pankid",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\n Back to top"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n Back to top"
   }
 ]

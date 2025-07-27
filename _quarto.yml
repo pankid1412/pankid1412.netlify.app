@@ -19,7 +19,7 @@ website:
       - text: "博客"
         file: index.qmd
       - text: "资料"
-        file: references.qmd
+        file: reference.qmd
       - text: "个人简历"
         file: about.qmd
     right:
@@ -43,7 +43,7 @@ sidebar:
 
   - title: "资料"
     contents:
-      - references.qmd
+      - reference.qmd
       # navigation items
 
 format:
