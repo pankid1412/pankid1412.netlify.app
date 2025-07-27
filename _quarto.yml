@@ -2,14 +2,58 @@ project:
   type: website
 
 website:
-  title: "demo"
+  title: "pankid的个人主页"
+  bread-crumbs: true
+  back-to-top-navigation: true
+  page-footer: "© pankid"
+  reader-mode: true
+  repo-url: https://github.com/pankid1412/demo
+  repo-actions: [edit, issue]
+
   navbar:
+    background: primary
+    foreground: light
+    pinned: true
+    search: true
+    left:
+      - text: "主页"
+        file: home.qmd
+      - text: "博客"
+        file: index.qmd
+      - text: "资料"
+        file: references.qmd
+      - text: "个人简历"
+        file: about.qmd
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com
       - icon: twitter
         href: https://twitter.com
+      - icon: google
+        href: http://google.com
+
+        menu:
+        - text: Source Code
+          url: https://code.com
+        - text: Report a Bug
+          url: https://bugs.com
+sidebar:
+  - title: "博客"
+    style: docked
+    type: dark
+    background: light
+    contents:
+      - index.qmd
+      - techs.qmd
+      - papers.qmd
+      - books.qmd
+
+  - title: "资料"
+    contents:
+      - references.qmd
+      # navigation items
+
 format:
   html:
     theme:

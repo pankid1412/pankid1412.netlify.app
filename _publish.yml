@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 1da69a66-9e9d-48f6-9d23-b6e062080b44
+      url: https://pankid.netlify.app

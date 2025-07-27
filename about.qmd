@@ -1,8 +1,10 @@
 ---
-title: "About"
+title: "About pankid"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
+  image-width: 20em
+  image-shape: rectangle
   links:
     - icon: twitter
       text: Twitter
@@ -13,6 +15,26 @@ about:
     - icon: github
       text: Github
       href: https://github.com
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com
+    - icon: mailbox
+      text: Gmail
+      href: https://mail.google.com
+
+# 简介
+
+“社会人”一枚 ~
+道阻且长，行则将至。
+
+## 关注领域
+社会学、经济学
+
+## 兴趣技能
+Python、Stata、R、Markdown、Quarto
 
 ---
 
