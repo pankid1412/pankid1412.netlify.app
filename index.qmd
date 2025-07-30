@@ -6,7 +6,7 @@ listing:
     - "date desc"
     - "title desc"
   type: default
-  date-format: medium
+  date-format: iso
   categories: true
   sort-ui: true
   filter-ui: true

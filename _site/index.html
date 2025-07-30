@@ -157,7 +157,7 @@ window.Quarto = {
 <span class="menu-text">博客</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reference.qmd"> 
+    <a class="nav-link" href="./reference.html"> 
 <span class="menu-text">资料</span></a>
   </li>  
   <li class="nav-item">
@@ -177,7 +177,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="http://google.com"> <i class="bi bi-google" role="img">
+    <a class="nav-link" href="https://www.google.com"> <i class="bi bi-google" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -253,7 +253,37 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1753545600000" data-listing-file-modified-sort="1753599077175" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1753977600000" data-listing-file-modified-sort="1753803401663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
+
+<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
+This is the first post in a Quarto blog. Welcome!
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/welcome/index.html" class="no-external">
+<div class="listing-date">
+2025-08-01
+</div>
+<div class="listing-author">
+pankid
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1753545600000" data-listing-file-modified-sort="1753599077175" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail"><a href="./posts/post-with-code/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image">
@@ -279,40 +309,10 @@ This is a post with executable code.
 <div class="metadata">
 <a href="./posts/post-with-code/index.html" class="no-external">
 <div class="listing-date">
-Jul 27, 2025
+2025-07-27
 </div>
 <div class="listing-author">
 Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1753286400000" data-listing-file-modified-sort="1753599077167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-This is the first post in a Quarto blog. Welcome!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jul 24, 2025
-</div>
-<div class="listing-author">
-Tristan O’Malley
 </div>
 </a>
 </div>
@@ -392,7 +392,7 @@ Tristan O’Malley
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/pankid\.netlify\.app");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
