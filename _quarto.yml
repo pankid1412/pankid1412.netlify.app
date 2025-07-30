@@ -14,12 +14,16 @@ website:
     pinned: true
     search: true
     left:
-      - text: "主页"
-        file: home.qmd
-      - text: "博客"
-        file: index.qmd
-      - text: "资料"
+      - text: "个人简历"
+        file: about.qmd
+      - text: "我的博客"
+        file: blog.qmd
+      - text: "推荐资料"
         file: reference.qmd
+      - text: "图片记录"
+        file: image.qmd
+      - text: "视频记录"
+        file: video.qmd
       - text: "个人简历"
         file: about.qmd
     right:
@@ -31,14 +35,14 @@ website:
         href: https://www.google.com
 
 sidebar:
-  - title: "博客"
+  - title: "我的博客"
     style: docked
     type: dark
     background: light
     contents:
       - index.qmd
 
-  - title: "资料"
+  - title: "推荐资料"
     contents:
       - reference.qmd
       # navigation items
