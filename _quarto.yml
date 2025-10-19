@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "pankid的个人主页"
+  title: "pankid"
   bread-crumbs: true
   back-to-top-navigation: true
   page-footer: "“我们在日常生活中度过的每一天，实际上也许是连续发生的奇迹也说不定呢。”"
