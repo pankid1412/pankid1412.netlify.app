@@ -1,5 +1,5 @@
 ---
-title: "pankid的"
+title: "pankid"
 listing:
   contents: posts
   sort: 
